@@ -1,8 +1,6 @@
 __author__ = 'David Rankin, David@rankinstudio.com'
 
-"""
-Module for displaying all extracted asteroids. Not tied to GUI. Run manually by uncommenting last line
-"""
+
 
 import pyds9
 import pickle

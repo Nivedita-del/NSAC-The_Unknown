@@ -1,5 +1,7 @@
 __author__ = 'David Rankin, David@rankinstudio.com'
-
+from pathlib import Path
+import sys
+sys.path.append(str(Path(__file__).parent.parent.absolute()))
 """
 Asteroid extraction from DB files.
 This module uses time based vectors to predict the 3rd and 4th hit after two objects are extracted
@@ -9,7 +11,7 @@ it up.
 
 import pickle
 import os
-from AstToolBox import solve_residuals, sec2deg
+from AsteroidDetector.AstToolBox import solve_residuals, sec2deg
 import numpy as np
 import matplotlib.pyplot as plt
 

@@ -1,6 +1,8 @@
 __author__ = 'David Rankin, David@rankinstudio.com'
 
-
+from pathlib import Path
+import sys
+sys.path.append(str(Path(__file__).parent.parent.absolute()))
 """
 Lots of stuff happens in here. Stacking of images with siril commands auto generated based on the image name select.
 Time calibration, midpoint calibration, time delta variables are made.
@@ -10,12 +12,12 @@ import os, glob, re, pickle
 import subprocess
 import shlex
 from astropy.io import fits
-from .CalibrateFits import calibrate_fits
+from AsteroidDetector.CalibrateFits import calibrate_fits
 from shutil import copy
 import ciso8601
 import calendar
 from datetime import datetime
-from .AstToolBox import timeToMPC, natural_sort
+from AsteroidDetector.AstToolBox import timeToMPC, natural_sort
 
 
 def stack_images(dir, subsingle, forcesingle, fitsname):
