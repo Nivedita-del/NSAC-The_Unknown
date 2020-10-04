@@ -1,8 +1,6 @@
 __author__ = 'David Rankin, David@rankinstudio.com'
 
-"""
-Module for background subtraction on images before running them through the pipeline
-"""
+
 
 from astropy.io import fits
 from photutils import Background2D, MedianBackground

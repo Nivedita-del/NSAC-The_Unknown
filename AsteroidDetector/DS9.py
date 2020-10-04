@@ -1,8 +1,7 @@
 __author__ = 'David Rankin, David@rankinstudio.com'
-
-"""
-Module for displaying the asteroids in DS9 via pyds9, conformation, and report building
-"""
+from pathlib import Path
+import sys
+sys.path.append(str(Path(__file__).parent.parent.absolute()))
 
 import pyds9
 import pickle
@@ -12,7 +11,7 @@ from astropy.time import Time
 from astropy.coordinates import SkyCoord
 from astropy import units as u
 import os
-from AstToolBox import solve_residuals, id_generator, clean_coords, find_desig, yes_no, score_rock
+from AsteroidDetector.AstToolBox import solve_residuals, id_generator, clean_coords, find_desig, yes_no, score_rock
 import pyperclip
 import math
 from tkinter import ttk
@@ -20,6 +19,7 @@ from tkinter import *
 
 #GET CONFIG FILE
 root_path = os.path.dirname(os.path.realpath(__file__))
+print(root_path)
 
 """
 Example measurement to recreate

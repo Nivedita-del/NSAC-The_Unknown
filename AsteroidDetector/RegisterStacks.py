@@ -1,5 +1,7 @@
 __author__ = 'David Rankin, David@rankinstudio.com'
-
+from pathlib import Path
+import sys
+sys.path.append(str(Path(__file__).parent.parent.absolute()))
 """
 Image registration module.
 """
@@ -8,8 +10,8 @@ import os
 import glob
 import subprocess
 import shlex
-from CalibrateFits import calibrate_fits
-from AstToolBox import natural_sort
+from AsteroidDetector.CalibrateFits import calibrate_fits
+from AsteroidDetector.AstToolBox import natural_sort
 
 def register_stacks(dir, subBack):
 
