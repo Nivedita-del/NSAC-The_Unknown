@@ -17,5 +17,6 @@ We are aiming to solve two different problems:
 ## Wormholes
 Wormholes are solutions to the Einstein field equations for gravity that act as "tunnels," connecting points in space-time in such a way that the trip between the points through the wormhole could take much less time than the trip through normal space.
 Wormholes are possible, according to Einstein's general theory of relativity, but nobody has ever spotted one. They are expected to require extreme gravitational conditions, such as those present at supermassive black holes like Sagittarius A* to form and are most likely to be found near one.
-Asteroid tracking
+
+### Asteroid tracking
 Asteroids are small rocky bodies that orbit the sun. They are mostly found in the asteroid belt between mars and jupiter. Occasionally, asteroids' orbital paths are influenced by the gravitational tug of planets, which cause their paths to alter. It is believed that most extinction events in the history of our planet have been caused by asteroids colliding with earth. Hence, it is in our interest to detect, catalogue and track asteroids that may impact earth in the future.
