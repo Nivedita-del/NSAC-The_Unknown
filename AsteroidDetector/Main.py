@@ -1,5 +1,3 @@
-__author__ = 'David Rankin, David@rankinstudio.com'
-
 """Main GUI for application"""
 from pathlib import Path
 import sys

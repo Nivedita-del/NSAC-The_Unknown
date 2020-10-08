@@ -1,4 +1,4 @@
-__author__ = 'David Rankin, David@rankinstudio.com'
+
 
 """
 Module for troubleshooting extraction with PP

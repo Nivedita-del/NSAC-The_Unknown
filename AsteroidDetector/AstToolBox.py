@@ -1,7 +1,3 @@
-__author__ = 'David Rankin, David@rankinstudio.com'
-
-
-
 import numpy as np
 from astropy.modeling.functional_models import Linear1D
 from astropy.modeling.fitting import LevMarLSQFitter, LinearLSQFitter

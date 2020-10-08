@@ -1,5 +1,3 @@
-__author__ = 'David Rankin, David@rankinstudio.com'
-
 """
 MPC SkyCov report module
 """

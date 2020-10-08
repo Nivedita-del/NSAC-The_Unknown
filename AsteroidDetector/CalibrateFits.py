@@ -1,7 +1,3 @@
-__author__ = 'David Rankin, David@rankinstudio.com'
-
-
-
 from astropy.io import fits
 from photutils import Background2D, MedianBackground
 

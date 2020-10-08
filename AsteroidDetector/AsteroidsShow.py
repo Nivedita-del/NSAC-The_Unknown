@@ -1,7 +1,3 @@
-__author__ = 'David Rankin, David@rankinstudio.com'
-
-
-
 import pyds9
 import pickle
 import glob

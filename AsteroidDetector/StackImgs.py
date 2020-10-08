@@ -1,5 +1,3 @@
-__author__ = 'David Rankin, David@rankinstudio.com'
-
 from pathlib import Path
 import sys
 sys.path.append(str(Path(__file__).parent.parent.absolute()))
