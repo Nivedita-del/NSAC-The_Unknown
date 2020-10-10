@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="Maven: io.projectreactor.addons:reactor-pool:0.2.0-SNAPSHOT">
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/io/projectreactor/addons/reactor-pool/0.2.0-SNAPSHOT/reactor-pool-0.2.0-20201009.124546-22.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$MAVEN_REPOSITORY$/io/projectreactor/addons/reactor-pool/0.2.0-SNAPSHOT/reactor-pool-0.2.0-20201009.124546-22-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$MAVEN_REPOSITORY$/io/projectreactor/addons/reactor-pool/0.2.0-SNAPSHOT/reactor-pool-0.2.0-20201009.124546-22-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>
