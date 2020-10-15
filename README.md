@@ -171,7 +171,7 @@ Maximum Torino Scale
 
 [Demo of asteroid tracker](https://drive.google.com/file/d/1o_d_8ZcX4o0GGcwVEu8oUxWsr9sMsIbz/view)
 
-[full documentation](https://docs.google.com/document/d/1i8vdxPo2N_16du58171Ix6f-mDP8MaTaW7TolTwT2lg/edit?usp=sharing)
+[Full documentation](https://docs.google.com/document/d/1i8vdxPo2N_16du58171Ix6f-mDP8MaTaW7TolTwT2lg/edit?usp=sharing)
 
 # Data & Resources
 
