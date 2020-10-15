@@ -173,8 +173,6 @@ Maximum Torino Scale
 
 [full documentation](https://docs.google.com/document/d/1i8vdxPo2N_16du58171Ix6f-mDP8MaTaW7TolTwT2lg/edit?usp=sharing)
 
-# (Project Code)[https://github.com/Nivedita-del/NSAC-The_Unknown]
-
 # Data & Resources
 
 [Link1](http://www.buffalo.edu/news/releases/2019/10/035.html)
