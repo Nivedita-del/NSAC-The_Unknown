@@ -39,6 +39,6 @@ Asteroids are small rocky bodies that orbit the sun. They are mostly found in th
 
 Wormholes are expected to form near supermassive bodies. If a wormhole does exist at supermassive blackholes like Sagittarius A*, stars at the other end of the passage would be influenced by the gravity. The star should feel the gravitational influence of the wormhole that’s on the other side due to the gravitational flux going through the wormhole. We used gravitational wave data from NASA and LIGO to plot a q-transform of gravitational wave sources, which visually represents the frequency or energy of a gravitational source over time in a spectrogram. We then use this as the unique gravitational energy signature of the source. Each source has a unique gravitational energy signature, and if the gravitational energy signature of one source is detected at the other source, it probably means that there is a wormhole connecting them. This is what we are trying to identify.
 
-![]()
+![](unknown.png)
 
 
