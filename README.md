@@ -181,14 +181,12 @@ Maximum Torino Scale
 
 [Link3](https://skyview.gsfc.nasa.gov/current/cgi/titlepage.pl)
 
-[Link4](https://www.aanda.org/articles/aa/full_html/2020/02/aa35983-19/aa35983-19.html https://mc.ai/detecting-potentially-hazardous-asteroids-using-deep-Learning-part-1/)
+[Link4](https://catalog.data.gov/nl/dataset/black-hole-neutron-star-binary-mergers)
 
-[Link5](https://catalog.data.gov/nl/dataset/black-hole-neutron-star-binary-mergers)
+[Link5](https://bgr.com/2020/09/01/wormholes-time-travel-theory/)
 
-[Link6](https://bgr.com/2020/09/01/wormholes-time-travel-theory/)
+[Link6](https://www.nasa.gov/sites/default/files/atoms/files/black_hole_math.pdf)
 
-[Link7](https://www.nasa.gov/sites/default/files/atoms/files/black_hole_math.pdf)
+[Link7](https://data.nasa.gov/widgets/s95g-ax2v)
 
-[Link8](https://data.nasa.gov/widgets/s95g-ax2v)
-
-[Link9](https://www.gw-openscience.org/data/)
+[Link8](https://www.gw-openscience.org/data/)
