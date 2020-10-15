@@ -181,7 +181,7 @@ Maximum Torino Scale
 
 [Link3](https://skyview.gsfc.nasa.gov/current/cgi/titlepage.pl)
 
-[Link4](https://www.aanda.org/articles/aa/full_html/2020/02/aa35983-19/aa35983-19.html https://mc.ai/detecting-potentially-hazardous-asteroids-using-deep-learning-part-1/)
+[Link4](https://www.aanda.org/articles/aa/full_html/2020/02/aa35983-19/aa35983-19.html https://mc.ai/detecting-potentially-hazardous-asteroids-using-deep-Learning-part-1/)
 
 [Link5](https://catalog.data.gov/nl/dataset/black-hole-neutron-star-binary-mergers)
 
