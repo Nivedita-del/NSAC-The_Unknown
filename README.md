@@ -41,4 +41,156 @@ Wormholes are expected to form near supermassive bodies. If a wormhole does exis
 
 ![](unknown.png)
 
+This is a gravitation localization event. Using a program we wrote, we generated the above image showing the exact location of a gravitational wave source (a supernova) in the sky.
 
+### Model Training
+
+We built, trained, evaluated and inspected a convolutional neural network on the below datasets. The CNN classifies spectrograms representing different types of glitches in gravitational waves into 22 classes like blip, koi - fish, chirp etc.
+
+By classifying the data into similar classes, we can better identify identical or extremely similar gravitational energy signatures and find wormholes.
+
+This classified data, along with the model, exposed as an API can help identify wormholes.
+
+### Results
+
+We have achieved an accuracy of 93% in classifying different types of gravitational waves. 
+
+We have not identified extremely similar gravitational energy signatures yet, and we are working on it.
+![](2.png)
+These are the different types of glitches in gravitational waves. They represent each of the below 22 classes:
+
+Blip
+
+Koi_Fish
+
+Low_Frequency_Burst
+
+Light_Modulation
+
+Power_Line
+
+Low_Frequency_Lines
+
+Extremely_Loud
+
+Scattered_Light
+
+Violin_Mode
+
+Scratchy
+
+1080Lines
+
+Whistle
+
+Helix
+
+Repeating_Blips
+
+No_Glitch
+
+Tomte
+
+1400Ripples
+
+None_of_the_Above (probably interference in the detector)
+
+Chirp
+
+Air_Compressor
+
+Wandering_Line
+
+Paired_Doves
+
+![](3.png)
+![](4.png)
+
+# Asteroid prediction for impact on earth
+
+We have created a model to predict whether an asteroid will hit earth based on past data like its orbital information. Tracking of these objects will predict when it will hit earth. To make tracking easier, we developed a GUI to show a FITS image of where exactly the asteroid is along with its coordinate.
+
+### Model Training
+
+We built, trained, evaluated and inspected a neural network on the below datasets. The neural network will predict in exactly which year a particular asteroid has the highest probability of hitting earth and what that cumulative impact probability is. This asteroid can then be tracked in the GUI we developed for it.
+
+
+
+### Results
+
+This particular model has an accuracy of 99.7%
+![](5.png)
+
+# Asteroid tracking GUI
+
+We have developed a GUI that takes the just the current coordinates of of the asteroids flagged as being in danger of hitting earth and tracks it live through space. It can show you where exactly the selected asteroid is now through a series of FITS images. These images are extracted, through an external python library called photometry pipeline, from NASAs SkyView Virtual Obesevatory. Flexible Image Transport System (FITS) is an open standard defining a digital file format useful for storage, transmission and processing of data. FITS is the most commonly used digital file format in astronomy, which makes our application universal.
+
+Below is a demo of our GUI:
+
+ https://drive.google.com/file/d/1o_d_8ZcX4o0GGcwVEu8oUxWsr9sMsIbz/v
+ 
+# How We Used Space Agency Data in This Project
+Wormhole Identification
+### Data
+
+LIGO(Laser Interferometer Gravitational-wave Observatory) is the world's largest gravitational wave observatory. It collects information about gravitational waves from large gravitational events, and makes it available for anyone to use here.
+
+We also used NASA’s data on Black Hole - Neutron Star Binary Mergers here
+
+We used this to plot a q-transform of the data, which visually represents the frequency or energy of a gravitational source over time in a spectrogram. We then tag this as the unique gravitational energy signature of the source. If the same plot is seen elsewhere, it could indicate the presence of a wormhole in that area.
+
+# Asteroid prediction for impact on earth
+### Data
+
+The asteroid orbit and impact risk data was collected by NASA's Near Earth Object Program at the Jet Propulsion Laboratory (California Institute of Technology). Two csv files are used for visualization of the most probable asteroid impact. Orbits.csv contains data about all the near earth asteroids and their obits. Impacts.csv contains the below data which indicate possible asteroid impacts. 
+
+Object Name
+
+Period Start
+
+Period End
+
+Possible Impacts
+
+Cumulative Impact Probability
+
+Asteroid Velocity
+
+Asteroid Magnitude
+
+Asteroid Diameter (km)
+
+Cumulative Palermo Scale
+
+Maximum Palermo Scale
+
+Maximum Torino Scale
+
+[Project Demo](https://docs.google.com/presentation/d/1MvLcwRzVAMRQn_MwY1meMN1Q4O5e0emofX1jk7KJIaM/edit#slide=id.g9dfcf704d1_7_1
+)
+
+[Demo of asteroid tracker](https://drive.google.com/file/d/1o_d_8ZcX4o0GGcwVEu8oUxWsr9sMsIbz/view)
+
+[full documentation](https://docs.google.com/document/d/1i8vdxPo2N_16du58171Ix6f-mDP8MaTaW7TolTwT2lg/edit?usp=sharing)
+
+# (Project Code)[https://github.com/Nivedita-del/NSAC-The_Unknown]
+
+# Data & Resources
+
+[Link1](http://www.buffalo.edu/news/releases/2019/10/035.html)
+
+[Link2](https://heasarc.gsfc.nasa.gov/vo/summary/python.html)
+
+[Link3](https://skyview.gsfc.nasa.gov/current/cgi/titlepage.pl)
+
+[Link4](https://www.aanda.org/articles/aa/full_html/2020/02/aa35983-19/aa35983-19.html https://mc.ai/detecting-potentially-hazardous-asteroids-using-deep-learning-part-1/)
+
+[Link5](https://catalog.data.gov/nl/dataset/black-hole-neutron-star-binary-mergers)
+
+[Link6](https://bgr.com/2020/09/01/wormholes-time-travel-theory/)
+
+[Link7](https://www.nasa.gov/sites/default/files/atoms/files/black_hole_math.pdf)
+
+[Link8](https://data.nasa.gov/widgets/s95g-ax2v)
+
+[Link9](https://www.gw-openscience.org/data/)
